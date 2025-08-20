@@ -11,6 +11,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("io.javalin:javalin:6.7.0")
+    implementation("org.slf4j:slf4j-simple:2.0.16")
+    implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.12.0")
 }
 
 tasks.test {
